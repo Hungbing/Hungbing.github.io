@@ -24,6 +24,18 @@ svg {
     stroke-width: 1;
     
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+    background: none;
+    /* 確保沒有背景色 */
+    border: none;
+    /* 移除任何邊框 */
+    outline: none;
+    /* 移除外框 */
+    padding: 0;
+    /* 確保沒有內間距 */
+    margin: 0;
+    /* 移除外間距 */
+    box-sizing: border-box;
+    /* 確保不會有額外邊框 */
     
 }
 
@@ -36,6 +48,18 @@ svg {
     stroke: #fff;
     stroke-width: 2;
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+    background: none;
+    /* 確保沒有背景色 */
+    border: none;
+    /* 移除任何邊框 */
+    outline: none;
+    /* 移除外框 */
+    padding: 0;
+    /* 確保沒有內間距 */
+    margin: 0;
+    /* 移除外間距 */
+    box-sizing: border-box;
+    /* 確保不會有額外邊框 */
 }
 
 
