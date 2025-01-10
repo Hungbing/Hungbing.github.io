@@ -50,7 +50,7 @@
         particlesJS('particles-js', {
                 "particles": {
                     "number": {
-                        "value": 80,
+                        "value": 150,
                         "density": {
                             "enable": true,
                             "value_area": 800
@@ -63,28 +63,31 @@
                         "type": "circle"
                     },
                     "opacity": {
-                        "value": 0.5
+                        "value": 0.5,
+                        "random": true
                     },
                     "size": {
-                        "value": 3
+                        "value": 2,
+                        "random": true
                     },
                     "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#ffffff",
-                        "opacity": 0.4,
-                        "width": 1
+                        "enable": false
                     },
                     "move": {
                         "enable": true,
-                        "speed": 2
+                        "speed": 0.5,
+                        "direction": "none",
+                        "random": true,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false
                     }
                 }
             });
 
     </script>
-    
 
+    
 </body>
 
 </html>
