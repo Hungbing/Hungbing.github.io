@@ -63,11 +63,11 @@
                         "type": "circle"
                     },
                     "opacity": {
-                        "value": 0.5,
+                        "value": 0.8,
                         "random": true
                     },
                     "size": {
-                        "value": 2,
+                        "value": 4,
                         "random": true
                     },
                     "line_linked": {
@@ -75,14 +75,30 @@
                     },
                     "move": {
                         "enable": true,
-                        "speed": 0.5,
+                        "speed": 0.8,
                         "direction": "none",
                         "random": true,
                         "straight": false,
                         "out_mode": "out",
                         "bounce": false
                     }
+                    
+                },
+                "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"  // 滑鼠懸停時星星遠離
+                    }
+                },
+                "modes": {
+                    "repulse": {
+                        "distance": 100  // 星星遠離距離
+                    }
                 }
+            },
+            "retina_detect": true
             });
 
     </script>
