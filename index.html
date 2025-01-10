@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAPPY Handwriting Animation</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 
 <body>
@@ -23,6 +24,8 @@
     
 
     <div class="button-container"><button onclick="resetAnimation()">重播</button></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <div id="particles-js"></div>
     
     <!-- 引入 Vivus.js -->
     <script src="https://cdn.jsdelivr.net/npm/vivus@0.4.6/dist/vivus.min.js"></script>
@@ -44,7 +47,43 @@
             VivusHappy.stop().reset().play();
             VivuSign.stop().reset().play();
         }
+        particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle"
+                    },
+                    "opacity": {
+                        "value": 0.5
+                    },
+                    "size": {
+                        "value": 3
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 2
+                    }
+                }
+            });
+
     </script>
+    
 
 </body>
 

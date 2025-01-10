@@ -23,7 +23,7 @@ svg {
     stroke: #fff;
     stroke-width: 1;
     
-    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 40px #ffff);
+   
     background: none;
     /* 確保沒有背景色 */
     border: none;
@@ -47,7 +47,7 @@ svg {
     height: auto;
     stroke: #fff;
     stroke-width: 2;
-    filter: drop-shadow(0 0 20px #fff) ;
+
     background: none;
     /* 確保沒有背景色 */
     border: none;
