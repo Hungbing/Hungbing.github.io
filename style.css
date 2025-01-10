@@ -90,10 +90,34 @@ button:hover {
         width: 90%;
         margin-right: auto;
         padding-left: 20px;
+        background: none;
+        /* 確保沒有背景色 */
+        border: none;
+        /* 移除任何邊框 */
+        outline: none;
+        /* 移除外框 */
+        padding: 0;
+        /* 確保沒有內間距 */
+        margin: 0;
+        /* 移除外間距 */
+        box-sizing: border-box;
+            /* 確保不會有額外邊框 */
     }
 
     .signature-svg {
         width: 70%;
+        background: none;
+        /* 確保沒有背景色 */
+        border: none;
+        /* 移除任何邊框 */
+        outline: none;
+        /* 移除外框 */
+        padding: 0;
+        /* 確保沒有內間距 */
+        margin: 0;
+        /* 移除外間距 */
+        box-sizing: border-box;
+        /* 確保不會有額外邊框 */
     }
 
     button {
